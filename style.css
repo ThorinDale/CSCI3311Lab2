@@ -11,6 +11,8 @@ body {
 h1 {
   margin-bottom: 60px;
   font-weight: 100;
+  margin: 60px;
+  text-align: center;
 }
 
 h2 {
@@ -42,16 +44,24 @@ h2 {
   margin-top: 20px;
 }
 
+.container {
+  text-align: center;
+}
+
 /****************/
 /*   BAR-CHART  */
 /****************/
 
 .bar {
-  fill: #3C948B;
+  /* fill: #3C948B; */
+  fill: #1A99AA;
 }
 
 .bar:hover {
-  fill: #327972;
+  /* fill: #327972; */
+  fill: #000;
+  stroke: #1A99AA;
+  stroke-width: 5px;
 }
 
 .axis {
